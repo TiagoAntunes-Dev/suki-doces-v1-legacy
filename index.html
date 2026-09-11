@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suki doces</title>
+    <link rel="icon" type="image/png" href="./sources/fav-icon/suki-favi.ico">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <script>
+        // Altera o título quando o usuário tenta sair da página
+        window.onblur = function() {
+          document.title = "Volte aqui! Estamos te esperando!";
+        };
+        // Restaura o título original quando o usuário volta para a página
+        window.onfocus = function() {
+          document.title = "Loja Suki Doces";
+        };
+    </script>
+    <!--HEADER-->
+    <header>
+        <div style="width: 100%; height: 5.04px; background-color: #f06B9A;"></div>
+        <div class="header-top-bar">
+            <div class="header-announcements">
+                <p>Frete grátis em pedidos acima de $50</p>
+                <div style="height: 18.14px; border: 1px solid #9D928F; opacity: 0.3;"></div>
+                <p>Com fidelidade, tenha 15% OFF em produtos + frete GRÁTIS</p>     
+            </div>
+            <div class="header-actions">
+                <div class="header-search">
+                    <input type="text" placeholder="Pesquisar...">
+                    <button class="btn-search">
+                        <img src="/sources/icons/search-icon.svg" alt="botão de pesquisa">
+                    </button>
+                </div>
+                <div class="account-actions">
+                    <button class="btn-profile">
+                        <img src="/sources/icons/profile-icon.svg" alt="botão de perfil">
+                    </button>
+                    <button class="btn-favorites">
+                        <img src="/sources/icons/heart-icon.svg" alt="botão de favoritos">
+                    </button>
+                    <button class="btn-cart">
+                        <img src="/sources/icons/cart-icon.svg" alt="botão de carrinho">
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div style="width: 75.16%; border: 1px solid #9D928F; opacity: 0.3; justify-self: center;"></div>
+        <div class="main-nav">
+            <img class="logo-img" src="./sources/logo/suki-doces-logo.svg" alt="logo suki doces"> 
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="">Nossa História</a>
+                <a href="">Loja</a>
+                <a href="">Blog</a>
+                <a href="">Páginas</a>
+                <a href="">Contatos</a>
+            </div>
+        </div>
+    </header>
+    <!--CAROUSEL-->    
+    <section class="carousel-container">
+        <section class="carousel-slides">
+            <div class="slide three">
+                <img src="./sources/images/banners/slide-3.webp" alt="">
+                <!--<span class="caption">
+                caption</span>-->
+            </div>
+            <div class="slide one">
+                <img src="./sources/images/banners/slide-1.webp" alt="">
+            </div>
+            <div class="slide two">
+                <img src="./sources/images/banners/slide-2.webp" alt="">
+            </div>
+            <div class="slide three">
+                <img src="./sources/images/banners/slide-3.webp" alt="">
+            </div>
+            <div class="slide four">
+                <img src="./sources/images/banners/slide-1.webp" alt="">
+            </div>
+            <div class="slide two">
+                <img src="./sources/images/banners/slide-2.webp" alt="">
+            </div>
+        </section>
+    </section>
+    <!--DIVULGATION-->
+    <section class="promo-section">
+        <h1>Precisa de doces no seu negócio?</h1>
+        <div class="promo-item">
+            <div class="promo-icon">
+                <img src="./sources/icons/group-icon.svg" alt="">
+            </div>
+            <p>Fazemos entregas</p>
+        </div>
+        <div class="promo-item">
+            <div class="promo-icon">
+                <img src="./sources/icons/shop-icon.svg" alt="">
+            </div>
+            <p>Retirada na loja</p>
+        </div>
+        <div class="promo-item">
+            <div class="promo-icon">
+                <img src="./sources/icons/map-icon.svg" alt="">
+            </div>
+            <p>Nosso endereço</p>
+        </div>
+    </section>
+    <!--ABOUT--US-->
+    <section class="about-section">
+        <div class="about-text">
+            <h1>Doces que encantam, momentos que marcam.</h1>
+            <p>Na Suki Doces, acreditamos que cada doce é uma forma de demonstrar carinho. Somos apaixonados por transformar ingredientes de qualidade em verdadeiras experiências de sabor. Seja bem-vindo ao nosso mundo doce. Seja bem-vindo à Suki Doces.</p>
+            <div class="links-loja">
+                <div>
+                    <img src="./sources/icons/arrow-right-icon.svg" alt="">
+                    <a href="">Nossa história</a>
+                </div>
+                <div>
+                    <img src="./sources/icons/arrow-right-icon.svg" alt="">
+                    <a href="">Cartão fidelidade</a>
+                </div>
+                <div>
+                    <img src="./sources/icons/arrow-right-icon.svg" alt="">
+                    <a href="">Veja nosso App</a>
+                </div>
+                <div>
+                    <img src="./sources/icons/arrow-right-icon.svg" alt="">
+                    <a href="">Blog</a>
+                </div>
+            </div>
+            <button class="janela-loja">
+                <p>Ver a loja</p>
+                <img src="./sources/icons/circle-arrow-r-icon.svg" alt="">
+            </button>
+        </div>
+        <img src="./sources/images/coffee-cashier-image.webp" alt="">
+    </section>
+    <!--INGREDIENTS--OPTIONS--> 
+    <section class="ingredients-options">
+        <div class="ing-title">
+            <h2>Opções de ingredientes</h2>
+            <div class="ing-t-decor">
+                <div class="line-middle">             
+                </div>
+                <img src="./sources/icons/candy-icon.svg" alt="">
+                <div class="line-middle">
+                </div>
+            </div>
+        </div>
+        <div class="ing-elements">
+            <button class="vanilla">
+                <img src="./sources/images/vanilla-image.webp" alt="">
+                <p>Vanilla</p>
+            </button>
+            <button class="chocolate">
+                <img src="./sources/images/chocolate-bar-image.webp" alt="">
+                <p>Chocolate</p>
+            </button>
+            <button class="ao leite">
+                <img src="./sources/images/milk-cup-image.webp" alt="">
+                <p>Ao leite</p>
+            </button>
+            <button>
+                <img src="./sources/images/avela-image.webp" alt="">
+                <p>Avelã</p> 
+            </button>
+            <button>
+                <img src="./sources/images/natural-yogurt-image.webp" alt="">
+                <p>Iogurte natural</p>
+            </button>
+        </div>
+    </section>
+    <!--PRODUCTS--SECTION--> 
+    <section class="products-section">
+        <!--TITLE-->
+        <div class="ing-title">
+            <h2>Recomendações de compra</h2>
+            <div class="ing-t-decor">
+                <div class="line-middle"></div>
+                <img src="./sources/icons/candy-icon.svg" alt="">
+                <div class="line-middle"></div>
+            </div>
+        </div>
+        <!--Grupo de catálogo e seu cabeçário-->
+        <div class="cat-mn">
+            <div class="catalog-hdr">
+                <button class="janela-loja catalog-h-btn">
+                    <p>Mais vendidos</p>
+                </button>
+                <button class="janela-loja catalog-h-w-btn">
+                    <p>Em tendência</p>
+                </button>
+                <button class="janela-loja catalog-h-w-btn">
+                    <p> Novos produtos</p>
+                </button>
+            </div>
+            <div class="product-list">
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-desconto">
+                            <img src="./sources/icons/tag-icon.svg" alt="">
+                            <p>50%</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/nutella-biscuits.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Nutella Biscuits</h2>
+                    </div>
+                    <div class="footer-item"> <!--rodapé-item-->
+                        <p>R$5,90</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-desconto">
+                            <img src="./sources/icons/tag-icon.svg" alt="">
+                            <p>50%</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/chocolate-callebaut.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Callebaut Chocolate Belga</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$11,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-esgotado">
+                            <p>Esgotado</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/kitkat-white-bar.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>KitKat Milk Bar</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$3,25</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-novo">
+                            <p>Novo</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/donuts.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Donuts com Cobertura</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$9,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-promocao">
+                            <p>Promoção</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/mini-box-ferrero.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Ferrero Rocher Mini Caixa</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$10,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-novo">
+                            <p>Novo</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/raffaello-bombom.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>BomBom Raffaello</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$10,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-esgotado">
+                            <p>Esgotado</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/caramelo-timtam.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Tim Tam Slams Caramelo</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$7,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+                <!--ITEM-->
+                <div class="item-option">
+                    <div><!--cabeçário-item-->
+                        <div class="tag-novo">
+                            <p>Novo</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/alfajor-suavipan-lv-choc.webp" alt="">
+                    <div class="item-title"><!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>SuaviPan Alfajor Zero</h2>
+                    </div>
+                    <div class="footer-item"><!--rodapé-item-->
+                        <p>R$4,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+             </div>
+             </div>
+        </div>
+        </section>
+    </section>
+    <!--Banner-->
+    <section class="flavours">
+        <div class="banner-flavours bfc-1">
+            <div>
+                <h2>100% natural<span>Tudo para você</span></h2>
+                <p>Cremoso e refrescante, sabor intenso — 100% sem lactose.</p>
+                <button class="flavours-button fbtn-1">
+                    <p>Comprar agora</p>
+                    <img src="./sources/icons/circle-arrow-r-icon.svg" alt="">
+                </button>
+            </div>
+            <img src="./sources/images/strawberries-ice-cream-image.webp" alt="">
+        </div>
+        <div class="banner-flavours bfc-2">
+            <div>
+                <h2>Frete grátis<span>Economize 25%</span></h2>
+                <p>Entrega no mesmo dia para compras até as 16h30</p>
+                <button class="flavours-button fbtn-2">
+                    <p>Comprar agora</p>
+                    <img src="./sources/icons/circle-arrow-r-icon.svg" alt="">
+                </button>
+            </div>
+            <img src="./sources/images/chocolate-trufa-image.webp" alt="">
+        </div>
+    </section> 
+    <!--FAVORITE--FLAVOR-->
+    <section class="favorite-flavor-section">
+        <!--título-->
+        <div class="ing-title">
+            <h1>FAVORITE FLAVOR</h1>
+            <h2>Não é só doce: sorvetes e muito mais</h2>
+            <div class="ing-t-decor">
+                <div class="line-middle"></div>
+                <img src="./sources/icons/candy-icon.svg" alt="">
+                <div class="line-middle"></div>
+            </div>
+        </div>
+        <div class="favorite-flavor">
+            <img src="./sources/images/girl-with-ice-cream-image.webp" alt="">
+            <div>
+                <div class="topics-flavor">
+                    <img src="./sources/images/strawberries-ice-cream-circle.webp"">
+                    <div>
+                        <h2>Escolha seu sabor</h2>
+                        <p>Em nosso menu, você certamente vai achar algo de seu agrado</p>
+                    </div>
+                </div>
+                <div class="topics-flavor">
+                    <img src="./sources/images/mango-ice-cream-circle.webp">
+                    <div>
+                        <h2>Monte do seu jeito</h2>
+                        <p>Adicione coberturas, caldas e complementos como quiser. Seu sorvete, do seu jeito!</p>
+                    </div>
+                </div>
+                <div class="topics-flavor">
+                    <img src="./sources/images/blueberry-ice-cream-cicle.webp">
+                    <div>
+                        <h2>Compartilhe o sabor</h2>
+                        <p>Tire fotos, marque a gente e espalhe essa delícia nas redes sociais! #SaborSuki</p>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <button class="janela-loja">
+                        <p>Veja mais</p>
+                        <img src="./sources/icons/circle-arrow-r-icon.svg" alt="">
+                    </button>
+                    <button class="janela-loja btn-white">
+                        <p>Nossos ingredientes</p>
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0C4.98 0 0.5 4.48 0.5 10C0.5 15.52 4.98 20 10.5 20C16.02 20 20.5 15.52 20.5 10C20.5 4.48 16.02 0 10.5 0ZM14.53 10.53L11.53 13.53C11.38 13.68 11.19 13.75 11 13.75C10.81 13.75 10.62 13.68 10.47 13.53C10.18 13.24 10.18 12.76 10.47 12.47L12.19 10.75H7C6.59 10.75 6.25 10.41 6.25 10C6.25 9.59 6.59 9.25 7 9.25H12.19L10.47 7.53C10.18 7.24 10.18 6.76 10.47 6.47C10.76 6.18 11.24 6.18 11.53 6.47L14.53 9.47C14.82 9.76 14.82 10.24 14.53 10.53Z" fill="#fd84b2"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sorvete Seção Catálogo-->
+    <section class="ice-cream-section">
+        <!--Título-->
+        <div class="ing-title">
+            <h2>Sorvetes para todos os momentos</h2>
+            <div class="ing-t-decor">
+                <div class="line-middle">      
+                </div>
+                <img src="./sources/icons/ice-cream-icon.svg" alt="">
+                <div class="line-middle">
+                </div>
+            </div>
+        </div>
+        <div class="product-list">
+            <!--ITEM-->
+                <div class="item-option ice-cream-option">
+                    <div> <!--cabeçário-item-->
+                        <div class="tag-novo">
+                            <p>Novo</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/ice-cream-strawberry-boat.webp" alt="">
+                    <div class="item-title"> <!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Morango e Lingoberry</h2>
+                    </div>
+                    <div class="footer-item"> <!--rodapé-item-->
+                        <p>R$8,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            <!--Fim do Item-->
+             <!--ITEM-->
+                <div class="item-option ice-cream-option">
+                    <div> <!--cabeçário-item-->
+                        <div class="tag-promocao">
+                            <p>Promoção</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/normal-ice-cream.webp" alt="">
+                    <div class="item-title"> <!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Sorvete de Casquinha</h2>
+                    </div>
+                    <div class="footer-item"> <!--rodapé-item-->
+                        <p>R$2,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+            <!--ITEM-->
+                <div class="item-option ice-cream-option">
+                    <div> <!--cabeçário-item-->
+                        <div class="tag-esgotado">
+                            <p>Esgotado</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/oreo-chocolate-milkshake.webp" alt="">
+                    <div class="item-title"> <!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Sundae de Oreo</h2>
+                    </div>
+                    <div class="footer-item"> <!--rodapé-item-->
+                        <p>R$5,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+            <!--ITEM-->
+                <div class="item-option ice-cream-option">
+                    <div> <!--cabeçário-item-->
+                        <div class="tag-novo">
+                            <p>Novo</p>
+                        </div>
+                        <button class="favorite-heart">
+                            <img src="./sources/icons/hearth-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                    <img src="./sources/images/items-img/chocolate-milkshake.webp" alt="">
+                    <div class="item-title"> <!--item-name-->
+                        <div class="rates-stars">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                            <img src="./sources/icons/star-solid-0-icon.svg" alt="">
+                        </div>
+                        <h2>Milkshake de Chocolate</h2>
+                    </div>
+                    <div class="footer-item"> <!--rodapé-item-->
+                        <p>R$12,00</p>
+                        <button>
+                            <img src="./sources/icons/cesta-solid-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <!--FIM ITEM-->
+        </div>
+    </section>
+    <!--100% Vegano-->
+    <section>
+        <div class="vegan-label">
+            <div>
+                <div class="vegan-sec-bg">
+                    <img src="./sources/icons/vegan-icon.svg" alt="">
+                </div>
+                <p>Opções veganas</p>
+            </div>
+            <div>
+                <div class="vegan-sec-bg">
+                    <img src="./sources/icons/gluten-free-icon.svg" alt="">
+                </div>
+                <p>Livre de gluten</p>
+            </div>
+            <div>
+                <div class="vegan-sec-bg">
+                    <img src="./sources/icons/paleo-icon.svg" alt="">
+                </div>
+                <p>Opções paleo</p>
+            </div>
+            <div>
+                <div class="vegan-sec-bg">
+                    <img src="./sources/icons/keto-icon.svg" alt="">
+                </div>
+                <p>Opções para dieta Keto</p> 
+            </div>
+        </div>
+    </section>
+    <!--REVIEWS-->
+    <section class="reviews-container">
+        <div>
+            <div class="ing-title">
+                <div class="ing-subtitle">
+                    <div class="rates-stars">
+                        <img src="./sources/icons/star-solid-1-icon.svg" alt="">
+                        <img src="./sources/icons/star-solid-1-icon.svg" alt="">
+                        <img src="./sources/icons/star-solid-1-icon.svg" alt="">
+                        <img src="./sources/icons/star-solid-1-icon.svg" alt="">
+                        <img src="./sources/icons/star-solid-1-icon.svg" alt="">
+                    </div>
+                    <p>4.8/5 AVALIADO POR 9,087 CLIENTES</p>
+                </div>
+                <h2>Degustando com opinião</h2>
+                <div class="ing-t-decor">
+                    <div class="line-middle">      
+                    </div>
+                    <img src="./sources/icons/candy-icon.svg" alt="">
+                    <div class="line-middle">
+                </div>
+            </div>
+            <!--REVIEWS-TEMPLATE-->
+            <div class="container">
+                <div class="card">
+                    <div class="bar">
+                    <h3 class="review-text">Conhecer a Suki Doces foi uma surpresa maravilhosa! A loja combina perfeitamente charme, variedade e sabor em um só lugar.</h3>
+                    <div class="emptybar"></div>
+                    <div class="filledbar"></div>
+                    </div>
+                    <div class="review-profile">
+                        <div class="profile-avatar">
+                            <img src="./sources/images/profile-img/profile-1.webp" alt="">
+                        </div>
+                        <h2>Suzana</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="bar">
+                        <h3 class="review-text">Os doces são simplesmente incríveis! Provei o brownie recheado com Nutella, o cupcake de red velvet e uma torta de limão no copinho que foi, sem exagero, uma das melhores que já comi.</h3>
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                    </div>
+                    <div class="review-profile">
+                        <div class="profile-avatar">
+                            <img src="./sources/images/profile-img/profile-2.webp" alt="">
+                        </div>
+                        <h2>Lívia</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="bar">
+                        <h3 class="review-text">A Suki Doces é o tipo de lugar que dá vontade de voltar toda semana. Seja pra matar a vontade de um docinho no dia a dia ou tomar um sorvete delicioso.</h3>
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                    </div>
+                    <div class="review-profile">
+                        <div class="profile-avatar">
+                            <img src="./sources/images/profile-img/profile-3.webp" alt="">
+                        </div>
+                        <h2>Kátia</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="bar">
+                    <h3 class="review-text">Se você busca um lugar para adoçar o dia e sair com um sorriso no rosto, a Suki Doces é uma parada obrigatória. Tudo feito com qualidade e muito capricho. Com certeza voltarei!</h3>
+                    <div class="emptybar"></div>
+                    <div class="filledbar"></div>
+                    </div>
+                    <div class="review-profile">
+                        <div class="profile-avatar">
+                            <img src="./sources/images/profile-img/profile-4.webp" alt="">
+                        </div>
+                        <h2>Mateus</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="bar">
+                    <h3 class="review-text">Descobri a Suki Doces por acaso enquanto passeava pelo centro de Diadema, e foi uma surpresa maravilhosa.Recomendo de olhos fechados!</h3>
+                    <div class="emptybar"></div>
+                    <div class="filledbar"></div>
+                    </div>
+                    <div class="review-profile">
+                        <div class="profile-avatar">
+                            <img src="./sources/images/profile-img/profile-5.webp" alt="">
+                        </div>
+                        <h2>Troy</h2>
+                    </div>
+                </div>
+            </div>
+            <!--END-REVIEWS-TEMPLATE-->
+            <button class="janela-loja">
+                <p>Ler Reviews</p>
+                <img src="./sources/icons/circle-arrow-r-icon.svg" alt="">
+            </button>
+        </div>
+    </section>
+    <!--NEWSLETTER-->
+    <section class="newsletter-section">
+        <div>
+            <img src="./sources/images/newsletter-image.webp" alt="">
+        </div>
+        <div>
+            <div class="ing-title">
+                <h1>Our Newsletter</h1>
+                <h2>Assine nossa Newsletter</h2>
+                <div class="ing-t-decor">
+                    <div class="line-middle">      
+                    </div>
+                    <img src="./sources/icons/candy-icon.svg" alt="imagem de doce">
+                    <div class="line-middle">
+                    </div>
+                </div>
+            </div>
+            <p>Inscreva-se na nossa newsletter hoje e ganhe 10% de desconto no seu primeiro pedido online com a Suki Doces.</p>
+            <div class="newsletter-form">
+                <input type="text" placeholder="Digite o seu e-mail aqui">
+                <button>
+                    <p>Increver-se</p>
+                    <img src="/sources/icons/circle-arrow-r-icon.svg" alt="imagem de flecha">
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--Line-->
+    <div style="width: 75.16%; border: 1.5px solid #533931; opacity: 0.3; justify-self: center;"></div>
+    <!--CLIENTS-->
+    <section class="clients-section">
+        <h2>Trabalhamos com as seguintes marcas</h2>
+        <div class="clients-logos">
+            <div>
+                <img src="./sources/logo/nestle-logo.webp" alt="logo da nestle">
+            </div>
+            <div>
+                <img src="./sources/logo/lacta-logo.webp" alt="logo da lacta">
+            </div>
+            <div>
+                <img src="./sources/logo/pepsico-logo.webp" alt="logo da pepsico">
+            </div>
+            <div>
+                <img src="./sources/logo/elma-chips-logo.webp" alt="logo da elma chips">
+            </div>
+            <div>
+                <img src="./sources/logo/coca-cola-logo.webp" alt="logo da coca-cola">
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-links">
+            <img class="logo-img" src="./sources/logo/suki-doces-logo.svg" alt="">
+            <div>
+                <h4>Informação</h4>
+                <ul>
+                    <li><a href="">Central de Ajuda</a></li>
+                    <li><a href="">Envio/Frete</a></li>
+                    <li><a href="">Retorno</a></li>
+                    <li><a href="">Politicas</a></li>
+                    <li><a href="">Cartões-Presentes</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="">Minha Conta</a></li>
+                    <li><a href="">Rastreamento do Pedido</a></li>
+                    <li><a href="">Todos os Produtos</a></li>
+                    <li><a href="">Ingredientes</a></li>
+                    <li><a href="">Atacado</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Sobre Nós</h4>
+                <ul>
+                    <li><a href="">Nossa História</a></li>
+                    <li><a href="">Contatos</a></li>
+                    <li><a href="">Programa de Afiliados</a></li>
+                    <li><a href="">Programa de Indicação</a></li>
+                    <li><a href="">Carreiras</a></li>    
+                </ul>
+            </div>
+            <div>
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="">Gelato</a></li>
+                    <li><a href="">Kulfi</a></li>
+                    <li><a href="">Sherbet</a></li>
+                    <li><a href="">Sorbet</a></li>
+                    <li><a href="">Iogurte Congelado</a></li>    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contact-info">
+            <div>
+                <img src="./sources/icons/location-pin-icon.svg" alt="ícone de gps">
+                <p>Endereço: Rua Praça Castelo Branco, nº 365</p>
+            </div>
+            <div>
+                <img src="./sources/icons/telephone-icon.svg"  alt="icone de telefone">
+                <p>+ 11 2759-8847</p>
+            </div>
+            <div>
+                <img src="./sources/icons/email-icon.svg" alt="icone de email">
+                <p>E-mail: sukidoces2025@hotmail.com</p>
+            </div>
+            <div class="social-networks">
+                <h4>Acompanhe nossas redes socias</h4>
+                <img src="./sources/icons/social-media/facebook-icon.svg" alt="icone do facebook">
+                <img src="./sources/icons/social-media/instagram-icon.svg" alt="icone do instagram">
+                <img src="./sources/icons/social-media/linkedin-icon.svg" alt="icone do linkedin">
+                <img src="./sources/icons/social-media/pinterest-icon.svg" alt="icone do pinterest">
+                <img src="./sources/icons/social-media/youtube-icon.svg" alt="icone do youtube">
+            </div>        
+        </div>
+        <div class="footer-info">
+            <div class="copyright">
+                2025 - <span style="color:#ff2a92;">Suki Doces</span>.
+            </div>
+            <div class="payment-methods">
+                <img src="./sources/icons/card-svc/card-services.png" alt="cartoes para pagamento">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

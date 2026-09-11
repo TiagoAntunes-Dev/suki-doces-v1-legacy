@@ -1,20 +1,20 @@
-# 🛒 Projeto Universitário – Loja Online Familiar
+# Suki Doces Website (v1.0 - Legacy)
 
-Este repositório contém o projeto desenvolvido durante a disciplina de **Web Standards**, no **1º semestre do curso de Sistemas para Internet (Senac)**. O trabalho consistiu na criação de um site para uma **loja online da minha família**, com o objetivo de aplicar os conceitos de estrutura semântica, responsividade e boas práticas de desenvolvimento web.
+A significant evolution of the Suki Doces landing page. This version introduces a robust product catalog, brand partnerships, and enhanced user trust signals through dietary certifications and customer testimonials.
 
-## 👥 Projeto em dupla  
-Desenvolvido em conjunto com um colega de sala.
+## ✨ What's New in v1.0
+* **Expanded Catalog**: Integration of diverse product categories including chocolates, ice creams, and beverages from major brands.
+* **Dietary Badges**: Visual indicators for Vegan, Keto, Paleo, and Gluten-Free products to cater to diverse dietary needs.
+* **Brand Partnerships**: A dedicated section showcasing official partners like Nestlé, Lacta, and Coca-Cola.
+* **Social Proof**: Implementation of a customer testimonials section with profile photos and ratings.
+* **Newsletter Integration**: A new subscription section to engage users with "sweet news".
 
-## 🛠 Tecnologias utilizadas
-- HTML5  
-- CSS3  
-- JavaScript (uso básico para interações simples)
+## 🛠️ Technical Details
+* **Modular Architecture**: Assets are now organized into specialized subdirectories (`sources/icons`, `sources/images`, `styles/`) for better maintainability.
+* **Advanced CSS**: Enhanced styling for complex layouts, including grid-based product displays and branded carousels.
+* **Improved SEO**: Added favicon support and better semantic HTML tags.
 
-## ✨ Funcionalidades e características
-- Estrutura semântica com HTML5  
-- Layout responsivo com CSS3  
-- Efeitos e interações simples com JavaScript  
-- Organização de conteúdo voltado para um negócio real
+## 📄 License
+Licensed under the **Apache License 2.0**.
 
-## 📅 Período de desenvolvimento  
-1º semestre de 2025
+Developed by crizzila, danielfontz, TiagoAntunes-Dev, and Unidadeobvia.
