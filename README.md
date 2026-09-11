@@ -1,6 +1,6 @@
 # Suki Doces Website (v1.0 - Legacy)
 
-Interface web desenvolvida para a loja **Suki Doces** como parte do Projeto Integrador no 1º semestre. O projeto foca nos fundamentos da web moderna, combinando marca visual cativante, navegação semântica e interações dinâmicas.
+Interface web desenvolvida para a loja **Suki Doces** como parte do Projeto Integrador no 1º semestre (2025). O projeto foca nos fundamentos da web moderna, combinando marca visual cativante, navegação semântica e interações dinâmicas.
 
 ---
 
