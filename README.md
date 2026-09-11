@@ -1,18 +1,47 @@
 # Suki Doces Website (v1.0 - Legacy)
 
-A significant evolution of the Suki Doces landing page. This version introduces a robust product catalog, brand partnerships, and enhanced user trust signals through dietary certifications and customer testimonials.
+Interface web desenvolvida para a loja **Suki Doces** como parte do Projeto Integrador no 1º semestre. O projeto foca nos fundamentos da web moderna, combinando marca visual cativante, navegação semântica e interações dinâmicas.
 
-## ✨ What's New in v1.0
-* **Expanded Catalog**: Integration of diverse product categories including chocolates, ice creams, and beverages from major brands.
-* **Dietary Badges**: Visual indicators for Vegan, Keto, Paleo, and Gluten-Free products to cater to diverse dietary needs.
-* **Brand Partnerships**: A dedicated section showcasing official partners like Nestlé, Lacta, and Coca-Cola.
-* **Social Proof**: Implementation of a customer testimonials section with profile photos and ratings.
-* **Newsletter Integration**: A new subscription section to engage users with "sweet news".
+---
 
-## 🛠️ Technical Details
-* **Modular Architecture**: Assets are now organized into specialized subdirectories (`sources/icons`, `sources/images`, `styles/`) for better maintainability.
-* **Advanced CSS**: Enhanced styling for complex layouts, including grid-based product displays and branded carousels.
-* **Improved SEO**: Added favicon support and better semantic HTML tags.
+## 📌 Funcionalidades
+
+* **Título de Aba Dinâmico:** Alteração da tag `<title>` do navegador via JavaScript ao alternar entre guias (`window.onblur` e `window.onfocus`).
+* **Carrossel de Destaques:** Seção visual para exibição de banners promocionais.
+* **Catálogo Multicategoria:** Seções organizadas para produtos mais vendidos, lançamentos, linhas de sorvetes e sobremesas.
+* **Sinalizadores de Produto:** Badges personalizadas para itens em promoção, descontos, lançamentos e produtos esgotados.
+* **Filtro de Dietas Especiais:** Seção dedicada com ícones informativos para opções veganas, sem glúten, paleo e keto.
+* **Navegação Semântica:** Estruturação HTML completa incluindo cabeçalho, barras de anúncio, menus e rodapé.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5:** Estruturação semântica das seções e acessibilidade básica.
+* **CSS3:** Estilização responsiva, layout e componentes visuais.
+* **JavaScript (Vanilla):** Manipulação de eventos no DOM e lógica do navegador.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+PROJETO-INTEGRADOR/
+├── sources/
+│   ├── fav-icon/
+│   │   └── suki-favi.ico
+│   ├── icons/
+│   ├── images/
+│   │   ├── banners/
+│   │   ├── items-img/
+│   │   └── profile-img/
+│   └── logo/
+├── styles/
+│   └── style.css
+├── index.html
+├── LICENSE
+└── README.md
+```
 
 ## 📄 License
 Licensed under the **Apache License 2.0**.
